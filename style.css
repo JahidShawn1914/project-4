@@ -63,8 +63,8 @@ header{
 .banner{
    padding: 60px;
 }
-.container2{
-    width: 55%;
+.container2 {
+    width: 30%;
     margin: 0 auto;
 }
 .b-content{
@@ -101,3 +101,44 @@ header{
     width: 100%;
 }
 /* banner end */
+/* completed projects started */
+.success{
+    padding: 60px;
+}
+.s-content{
+    overflow: hidden;
+}
+.s-left{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 0 10px 0 20px;
+}
+.s-left h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #F15767;
+    margin: 0 0 10px;
+}
+.s-left p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #0F2656;
+    margin: 0;
+    line-height: 25px;
+    word-spacing: 1px;
+    
+}
+.s-right{
+    width: 50%;
+    float: right;
+    padding: 0 20px 0 10px;
+}
+.s-right h1{
+    font-weight: 700px;
+    font-size: 42px;
+    color: #0F2656;
+    line-height: 50px;
+    margin: 0;
+}
+/* completed projects ended */
