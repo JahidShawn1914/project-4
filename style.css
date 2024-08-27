@@ -63,8 +63,8 @@ header{
 .banner{
    padding: 60px;
 }
-.container2 {
-    width: 30%;
+.container2{
+    width: 50%;
     margin: 0 auto;
 }
 .b-content{
@@ -107,10 +107,10 @@ header{
 }
 .s-content{
     overflow: hidden;
+    display: flex;
 }
 .s-left{
-    width: 40%;
-    float: left;
+    width: 55%;
     text-align: right;
     padding: 0 10px 0 20px;
 }
@@ -130,7 +130,7 @@ header{
     
 }
 .s-right{
-    width: 50%;
+    width: 45%;
     float: right;
     padding: 0 20px 0 10px;
 }
@@ -142,3 +142,63 @@ header{
     margin: 0;
 }
 /* completed projects ended */
+
+/* feature start */
+
+.feature{
+    padding: 60px;
+}
+.f-content{
+    overflow: hidden;
+}
+.f-single{
+    width: 29%;
+    color: #0F2656;
+    padding: 30px 1% 45px;
+    float: left;
+    margin-right: 2.5%;
+}
+.f-single:last-child{
+    margin-right: 0;
+}
+.pink{
+    background-color: #FDEBED;
+}
+.green{
+    background-color: #EBF9F4;
+}
+.yellow{
+    background-color: #FFF7E8;
+}
+.f-img img{
+    width: 100%;
+}
+.f-single h2{
+    font-size: 22px;
+    font-weight: 700px;
+    margin: 20px 0;
+}
+.f-single p{
+    font-size: 16px;
+    font-weight: 300px;
+    margin: 0;
+}
+/* feature end */
+
+/* footer start */
+footer{
+    background-color: #008AFF;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 100;
+    word-spacing: 2px;
+}
+
+.lepd{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+/* footer end */
